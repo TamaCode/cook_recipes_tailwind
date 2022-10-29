@@ -677,3 +677,9 @@ video {
 .text-secondary-200{
   color: 888883;
 }
+
+@media (min-width: 768px){
+  .md\:justify-end{
+    justify-content: flex-end;
+  }
+}
