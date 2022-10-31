@@ -561,20 +561,12 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.absolute{
-  position: absolute;
-}
-
-.relative{
-  position: relative;
-}
-
-.top-0{
-  top: 0px;
-}
-
 .m-4{
   margin: 1rem;
+}
+
+.ml-6{
+  margin-left: 1.5rem;
 }
 
 .mt-12{
@@ -583,22 +575,6 @@ video {
 
 .mt-8{
   margin-top: 2rem;
-}
-
-.ml-2{
-  margin-left: 0.5rem;
-}
-
-.ml-4{
-  margin-left: 1rem;
-}
-
-.ml-6{
-  margin-left: 1.5rem;
-}
-
-.mt-2{
-  margin-top: 0.5rem;
 }
 
 .block{
@@ -617,24 +593,8 @@ video {
   width: 100%;
 }
 
-.justify-end{
-  justify-content: flex-end;
-}
-
 .justify-center{
   justify-content: center;
-}
-
-.overflow-hidden{
-  overflow: hidden;
-}
-
-.rounded{
-  border-radius: 0.25rem;
-}
-
-.rounded-full{
-  border-radius: 9999px;
 }
 
 .border-b{
@@ -651,23 +611,13 @@ video {
   border-color: rgb(229 231 235 / var(--tw-border-opacity));
 }
 
-.bg-secondary-100{
-  background-color: E2E2D5;
-}
-
 .bg-gray-100{
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
-.bg-white{
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-gray-500{
-  --tw-bg-opacity: 1;
-  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+.bg-secondary-100{
+  background-color: E2E2D5;
 }
 
 .object-cover{
@@ -677,10 +627,6 @@ video {
 
 .p-4{
   padding: 1rem;
-}
-
-.p-2{
-  padding: 0.5rem;
 }
 
 .px-16{
@@ -695,10 +641,6 @@ video {
 
 .pb-2{
   padding-bottom: 0.5rem;
-}
-
-.font-body_test{
-  font-family: Island Moments;
 }
 
 .font-body{
@@ -718,11 +660,6 @@ video {
 .text-sm{
   font-size: 0.875rem;
   line-height: 1.25rem;
-}
-
-.text-xs{
-  font-size: 0.75rem;
-  line-height: 1rem;
 }
 
 .font-bold{
@@ -752,19 +689,39 @@ video {
   color: rgb(255 99 99 / var(--tw-text-opacity));
 }
 
-.text-secondary-200{
-  color: 888883;
-}
-
 .text-gray-500{
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
-.shadow-md{
+.text-secondary-200{
+  color: 888883;
+}
+
+.card{
+  position: relative;
+  overflow: hidden;
+  border-radius: 0.25rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.badge{
+  position: absolute;
+  top: 0px;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  border-radius: 9999px;
+  background-color: E2E2D5;
+  padding: 0.5rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: 888883;
 }
 
 @media (min-width: 640px){
